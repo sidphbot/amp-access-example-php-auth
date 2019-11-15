@@ -1,0 +1,124 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Spooky Space</title>
+    <link rel="canonical" href="list.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+	<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+	<script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="assets/custom.css"> 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	    <script async custom-element="amp-access" src="https://cdn.ampproject.org/v0/amp-access-0.1.js"></script>
+
+		<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+
+<script id="amp-access" type="application/json">
+  {
+      
+	  "authorization": "http://localhost:80/apps/amp-assign2/auth?rid=READER_ID&url=CANONICAL_URL&ref=DOCUMENT_REFERRER&_=RANDOM",
+		"noPingback": "true",
+      "login": {
+        "sign-in": "http://localhost:80/apps/amp-assign2/login?rid=READER_ID&url=CANONICAL_URL&ref=DOCUMENT_REFERRER",
+        "sign-out": "http://localhost:80/apps/amp-assign2/logout"
+      },
+      "authorizationFallbackResponse": {
+
+		  "access": false
+      }
+  }
+
+</script>
+  </head>
+  <body>
+  
+  <header class="headerbar">
+  <a href="index.html">
+    <amp-img class="home-button" src="assets/home-solid.svg" width="36" height="36"></amp-img>
+  </a>
+  
+ <div class="site-name">Cats</div>
+ <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger" style="float: right">☰</div>
+ <div role="button" on="tap:amp-access.login-sign-out" amp-access="loggedIn" tabindex="0" class="hamburger" style="float: right">Logout</div>
+ <div role="button" on="tap:amp-access.login-sign-in" amp-access="NOT loggedIn" amp-access-hide tabindex="0" class="hamburger" style="float: right">LogIn</div>
+
+</header>
+  
+<amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+  <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕ Collapse</div>
+  <ul class="sidebar w3-bar-block">
+    <li amp-access="loggedIn"><a href="dogs.html" class="w3-bar-item w3-button">LoggedIn-Dogs</a></li>
+    <li amp-access="admin"><a href="cats.html" class="w3-bar-item w3-button">Admin-Cats</a></li>
+    <li><a href="birds.html" class="w3-bar-item w3-button">Visitor-Birds</a></li>
+  </ul>
+</amp-sidebar>
+
+
+<div class="content">
+<amp-carousel lightbox
+  width="720" height="1280"
+  layout="responsive"
+  type="slides">
+  <figure class="sample-figure">
+  <amp-img src="assets/cats-cover.jpg"
+    width="720" height="1280"
+    layout="responsive"></amp-img>
+	<figcaption>
+    Why doesn’t a cat want to change?
+
+</br>Because it’s already purrfect.</br></br>Image Source: <a href="https://unsplash.com">unsplash.com</a>
+  </figcaption>
+</figure>
+<figure class="sample-figure">
+  <amp-img src="assets/persian.jpg"
+    width="720" height="1280"
+    layout="responsive"></amp-img>
+	<figcaption>
+    <b>Breed: </b>Persian</br></br>Image Source: <a href="https://unsplash.com">unsplash.com</a>
+  </figcaption>
+</figure>
+<figure class="sample-figure">
+	<amp-img src="assets/russian-blue.jpg"
+    width="720" height="1280"
+    layout="responsive"></amp-img>
+	<figcaption>
+    <b>Breed: </b>Russian Blue</br></br>Image Source: <a href="https://unsplash.com">unsplash.com</a>
+  </figcaption>
+</figure>
+<figure class="sample-figure">
+  <amp-img src="assets/tabby.jpg"
+    width="720" height="1280"
+    layout="responsive"></amp-img>
+	<figcaption>
+    <b>Breed: </b>Tabby</br></br>Image Source: <a href="https://unsplash.com">unsplash.com</a>
+  </figcaption>
+</figure>
+</amp-carousel>
+
+<p class="paragraph">The cat (Felis catus) is a small carnivorous mammal. It is the only domesticated species in the family Felidae and often referred to as the domestic cat to distinguish it from wild members of the family. The cat is either a house cat or a farm cat, which are pets, or a feral cat, which ranges freely and avoids human contact. A house cat is valued by humans for companionship and for its ability to hunt rodents. About 60 cat breeds are recognized by various cat registries.</br>Source: <a href="https://en.wikipedia.org/wiki/Cat">Wikipedia</a></p>
+
+
+
+</div>
+
+
+
+
+  <div class="footer">
+  Created by: Sidharth Pal</br>
+  Image Source: <a href="https://unsplash.com">unsplash.com</a></br>
+  Image Usage License: <a href="https://unsplash.com/license">
+  license</a>
+  </div>
+  </body>
+  </html>

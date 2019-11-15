@@ -1,0 +1,106 @@
+  body {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+        background: #00acc1;
+        color: black;
+        font-size: 2em;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 0.5em;
+        background: white;
+        box-shadow: 0px 3px 5px grey;
+      }
+
+      p {
+        padding: 0.5em;
+        margin: 0.5em;
+      }
+	  
+	  .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.home-button {
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.headerbar {
+  height: 50px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.site-name {
+  flex: 1;
+  margin-left: -36px;
+}
+article {
+  margin-top: 50px;
+}
+.hamburger {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.sidebar {
+  padding: 10px;
+  margin: 0;
+}
+.sidebar > li {
+  list-style: none;
+  margin-bottom:10px;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.close-sidebar {
+  font-size: 1.5em;
+  padding-left: 5px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.content{
+	padding-top:50px;
+	padding-bottom:70px;
+	
+}

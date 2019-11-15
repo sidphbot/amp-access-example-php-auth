@@ -1,0 +1,145 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>Spooky Space</title>
+    <link rel="canonical" href="list.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+	<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+	<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="assets/custom.css"> 
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+		  <script async custom-element="amp-access" src="https://cdn.ampproject.org/v0/amp-access-0.1.js"></script>
+
+		<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+
+<script id="amp-access" type="application/json">
+  {
+      
+	  "authorization": "http://localhost:80/apps/amp-assign2/auth?rid=READER_ID&url=CANONICAL_URL&ref=DOCUMENT_REFERRER&_=RANDOM",
+		"noPingback": "true",
+      "login": {
+        "sign-in": "http://localhost:80/apps/amp-assign2/login?rid=READER_ID&url=CANONICAL_URL&ref=DOCUMENT_REFERRER",
+        "sign-out": "http://localhost:80/apps/amp-assign2/logout"
+      },
+      "authorizationFallbackResponse": {
+
+		  "access": false
+      }
+  }
+
+</script>
+	
+	<style amp-custom>
+		
+	 
+	 amp-accordion section[expanded] .show-more {
+    display: none;
+  }
+  amp-accordion section:not([expanded]) .show-less {
+    display: none;
+	
+  }
+  .nested-accordion h4 {
+    font-size: 14px;
+    background-color: #ddd;
+	
+  }
+  amp-accordion.hidden-header section[expanded] h4 {
+    border: none;
+  }
+
+  /* these styles are not required for the samples to work */
+  :root {
+    --space-2: 1rem;   /* 16px */
+  }
+  amp-accordion.sample {
+    margin: var(--space-2);
+	background-color: #b2ebf2;
+  }
+  
+	 	  
+  </style>
+  </head>
+  <body>
+  
+  <header class="headerbar">
+  <a href="index.html">
+    <amp-img class="home-button" src="assets/home-solid.svg" width="36" height="36"></amp-img>
+  </a>
+  
+ <div class="site-name">Birds</div>
+ <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger" style="float: right">☰</div>
+ <div role="button" on="tap:amp-access.login-sign-out" amp-access="loggedIn" tabindex="0" class="hamburger" style="float: right">Logout</div>
+ <div role="button" on="tap:amp-access.login-sign-in" amp-access="NOT loggedIn" amp-access-hide tabindex="0" class="hamburger" style="float: right">LogIn</div>
+
+</header>
+  
+<amp-sidebar id="sidebar1" layout="nodisplay" side="right">
+  <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕ Collapse</div>
+  <ul class="sidebar w3-bar-block">
+    <li amp-access="loggedIn"><a href="dogs.html" class="w3-bar-item w3-button">LoggedIn-Dogs</a></li>
+    <li amp-access="admin"><a href="cats.html" class="w3-bar-item w3-button">Admin-Cats</a></li>
+    <li><a href="birds.html" class="w3-bar-item w3-button">Visitor-Birds</a></li>
+  </ul>
+</amp-sidebar>
+
+<div class="content">
+<amp-accordion class="sample"
+  animate expand-single-section>
+  <section>
+    <h4>Peacocks</h4>
+			<div><amp-img src="assets/birds-cover.jpg"
+			  layout="responsive"
+			  width="720" height="1280"></amp-img>
+			  
+			  <p>The peacock-pheasants are a bird genus, Polyplectron, of the family Phasianidae, consisting of eight species. They are colored inconspicuously, relying on heavily on crypsis to avoid detection. When threatened, peacock-pheasants will alter their shapes using specialised plumage that when expanded reveals numerous iridescent orbs. </br>Source: <a href="https://en.wikipedia.org/wiki/Peacock-pheasant">Wikipedia</a></br>Image Source: <a href="https://unsplash.com">unsplash.com</a></p>
+		  </div></section>
+		  <section>
+			<h4>Owl</h4>
+		   <div> <div amp-access="loggedIn"><amp-img src="assets/owl.jpg"
+			  layout="responsive"
+			  width="720" height="1280"></amp-img>
+			 
+			  <p>Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight. Owls hunt mostly small mammals, insects, and other birds, although a few species specialize in hunting fish. </br>Source: <a href="https://en.wikipedia.org/wiki/Owl">Wikipedia</a></br>Image Source: <a href="https://unsplash.com">unsplash.com</a></p>
+				</div>
+				<div amp-access="NOT loggedIn" amp-access-hide>
+				Owl related content available only after login !!
+				
+				</div>
+		  </div></section>
+		  <section>
+			<h4>Eagle</h4>
+			<div><div amp-access="loggedIn AND admin"><amp-img src="assets/eagle.jpg"
+			  layout="responsive"
+			  width="720" height="1280"></amp-img>
+			  
+			<p>Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, not all of which are closely related. Due to the size and power of many eagle species, they are ranked at the top of the food chain as apex predators in the avian world. </br>Source: <a href="https://en.wikipedia.org/wiki/Eagle">Wikipedia</a></br>Image Source: <a href="https://unsplash.com">unsplash.com</a></p>
+			</div>
+				<div amp-access="NOT admin" amp-access-hide>
+				WOAH !!! this is top level admin stuff !! login as ADMIN to view !!
+				
+				</div>
+		  </div></section>
+		</amp-accordion>
+
+
+</div>
+
+  <div class="footer">
+  Created by: Sidharth Pal</br>
+  Image Source: <a href="https://unsplash.com">unsplash.com</a></br>
+  Image Usage License: <a href="https://unsplash.com/license">
+  license</a>
+  </div>
+  </body>
+  </html>

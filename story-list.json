@@ -1,0 +1,27 @@
+{
+  "items": [{
+    "id": 1,
+    "img": "assets/dogs.jpg",
+    "name": "dogs",
+    "wildness": "&#9733;&#9734;&#9734;&#9734;&#9734;",
+    "attribution": "visualhunt",
+    "url": "dogs.html",
+    "color": "orange"
+  }, {
+    "id": 2,
+    "img": "assets/cats.jpg",
+    "name": "cats",
+    "attribution": "visualhunt",
+    "wildness": "&#9733;&#9733;&#9734;&#9734;&#9734;",
+    "url": "cats.html",
+    "color": "pink"
+  }, {
+    "id": 3,
+    "img": "assets/birds.jpg",
+    "name": "birds",
+    "attribution": "visualhunt",
+    "wildness": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "url": "birds.html",
+    "color": "green"
+  }]
+}
